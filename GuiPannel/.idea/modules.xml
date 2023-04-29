@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/.idea/sendTelegram.iml" filepath="$PROJECT_DIR$/.idea/sendTelegram.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/GuiPannel.iml" filepath="$PROJECT_DIR$/.idea/GuiPannel.iml" />
     </modules>
   </component>
 </project>

@@ -1,30 +1,16 @@
-import time
-import datetime
-import subprocess
+# This is a sample Python script.
 
-import smtplib, ssl
-
-port = 465
-password = "GdSd13100301!"
-
-context = ssl.create_default_context()
-
-with smtplib.SMTP_SSL("smtp.gmail.com", port, context=context) as server:
-    server.login("guydvir.tech@gmail.com", password)
-    # TODO: Send email here
+# Press Shift+F10 to execute it or replace it with your code.
+# Press Double Shift to search everywhere for classes, files, tool windows, actions, and settings.
 
 
-def exec_sh_file(file):
-    subprocess.run(file)
-
-
-def return_datestamp():
-    clk = datetime.datetime.now().ctime()
-    return clk
+def print_hi(name):
+    # Use a breakpoint in the code line below to debug your script.
+    print(f'Hi, {name}')  # Press Ctrl+F8 to toggle the breakpoint.
 
 
 # Press the green button in the gutter to run the script.
 if __name__ == '__main__':
-    time.sleep(1)
-    print(return_datestamp())
-    # exec_sh_file("/home/guy/run_vmBox_raspbian.sh")
+    print_hi('PyCharm')
+
+# See PyCharm help at https://www.jetbrains.com/help/pycharm/
